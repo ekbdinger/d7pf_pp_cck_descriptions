@@ -13,7 +13,7 @@ function d7pf_pp_cck_descriptions_views_default_views() {
   $view = new view;
   $view->name = 'pp_cck_descriptions';
   $view->description = '';
-  $view->tag = 'default';
+  $view->tag = 'd7, paul';
   $view->base_table = 'node';
   $view->human_name = 'pp_cck_descriptions';
   $view->core = 7;
