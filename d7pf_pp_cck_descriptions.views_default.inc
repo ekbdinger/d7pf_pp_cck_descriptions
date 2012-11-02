@@ -22,7 +22,7 @@ function d7pf_pp_cck_descriptions_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Description';
+  $handler->display->display_options['title'] = 'Primary Information';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -118,6 +118,7 @@ function d7pf_pp_cck_descriptions_views_default_views() {
 
   /* Display: Descripton (arg) */
   $handler = $view->new_display('page', 'Descripton (arg)', 'page_2');
+  $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Title */
@@ -163,6 +164,8 @@ function d7pf_pp_cck_descriptions_views_default_views() {
 
   /* Display: Setup */
   $handler = $view->new_display('page', 'Setup', 'page_3');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Setup';
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Title */
@@ -208,6 +211,8 @@ function d7pf_pp_cck_descriptions_views_default_views() {
 
   /* Display: Security */
   $handler = $view->new_display('page', 'Security', 'page_4');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Security';
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Title */
@@ -254,6 +259,8 @@ function d7pf_pp_cck_descriptions_views_default_views() {
 
   /* Display: Item Keys */
   $handler = $view->new_display('page', 'Item Keys', 'page_5');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Item Keys';
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['empty'] = FALSE;
   /* No results behavior: Global: Text area */
@@ -307,6 +314,8 @@ function d7pf_pp_cck_descriptions_views_default_views() {
 
   /* Display: Primary Info */
   $handler = $view->new_display('page', 'Primary Info', 'page_6');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Primary Information';
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Title */
@@ -353,6 +362,8 @@ function d7pf_pp_cck_descriptions_views_default_views() {
 
   /* Display: Optional Features */
   $handler = $view->new_display('page', 'Optional Features', 'page_7');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Optional Features';
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Title */
