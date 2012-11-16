@@ -304,12 +304,12 @@ function d7pf_pp_cck_descriptions_views_default_views() {
   $handler->display->display_options['fields']['taxonomy_vocabulary_3']['field'] = 'taxonomy_vocabulary_3';
   $handler->display->display_options['fields']['taxonomy_vocabulary_3']['exclude'] = TRUE;
   $handler->display->display_options['fields']['taxonomy_vocabulary_3']['delta_offset'] = '0';
-  /* Field: Content: Security Attributes */
-  $handler->display->display_options['fields']['field_pp_security_attributes']['id'] = 'field_pp_security_attributes';
-  $handler->display->display_options['fields']['field_pp_security_attributes']['table'] = 'field_data_field_pp_security_attributes';
-  $handler->display->display_options['fields']['field_pp_security_attributes']['field'] = 'field_pp_security_attributes';
-  $handler->display->display_options['fields']['field_pp_security_attributes']['label'] = '';
-  $handler->display->display_options['fields']['field_pp_security_attributes']['element_label_colon'] = FALSE;
+  /* Field: Content: Item Keys */
+  $handler->display->display_options['fields']['field_pp_item_keys_1']['id'] = 'field_pp_item_keys_1';
+  $handler->display->display_options['fields']['field_pp_item_keys_1']['table'] = 'field_data_field_pp_item_keys';
+  $handler->display->display_options['fields']['field_pp_item_keys_1']['field'] = 'field_pp_item_keys';
+  $handler->display->display_options['fields']['field_pp_item_keys_1']['label'] = '';
+  $handler->display->display_options['fields']['field_pp_item_keys_1']['element_label_colon'] = FALSE;
   $handler->display->display_options['path'] = 'pp/%/itemkeys';
 
   /* Display: Primary Info */
